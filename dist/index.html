@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10233f"><meta name="description" content="Ứng dụng điều hành và chấm điểm giải đấu Robotics FAnRoC 2026">
+<title>FAnRoC 2026 | Điều hành & chấm điểm</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><div class="logo">F</div><div><strong>FAnRoC <span>2026</span></strong><small>CYAN FLAMES · ĐIỀU HÀNH GIẢI ĐẤU</small></div></div><div class="top-actions"><span id="cloudStatus" class="sync-pill"><i></i><span>Chế độ thử nghiệm · lưu trên thiết bị này</span></span><button class="icon-btn" id="helpBtn" title="Trợ giúp">?</button></div></header>
+<div class="shell">
+<aside class="sidebar"><div class="event-card"><small>GIẢI ĐẤU HIỆN TẠI</small><b>FAnRoC 2026</b><span>FPT Schools AI & Robotics Challenge</span></div><nav>
+<button class="nav active" data-view="dashboard"><span>◫</span>Tổng quan</button><button class="nav" data-view="matches"><span>▦</span>Lịch trận</button><button class="nav" data-view="teams"><span>♙</span>Danh sách đội</button><button class="nav" data-view="rankings"><span>↗</span>Bảng xếp hạng</button><button class="nav" data-view="display"><span>▣</span>Màn hình khán giả</button><button class="nav" data-view="settings"><span>⚙</span>Cài đặt & sao lưu</button></nav><div class="sidebar-bottom"><span class="live-dot"></span> HỆ THỐNG SẴN SÀNG</div></aside>
+<main id="main" class="main"></main></div>
+<div id="toast" class="toast"></div><dialog id="modal"><div id="modalBody"></div></dialog>
+<script type="module" src="app.js"></script>
+</body></html>
